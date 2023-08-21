@@ -1,0 +1,16 @@
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding:20px;
+  /* Add any other grid-related styling here */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .grid1 {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    /* Adjust columns and gap for smaller screens */
+  }
+}
